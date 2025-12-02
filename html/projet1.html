@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<link href="../css/projet1.css" rel=stylesheet>
+<link href="../css/style.css" rel="stylesheet">
+
+
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device">
+    <title>Projets</title>
+</head>
+<body>
+    <header>
+        <h1 id="titre-principal">Mes projets</h1>
+
+        <nav>
+            <a id="a1" href=../index.html>Presentation</a>
+            <a id="a1" href="parcours.html">Parcours</a>
+            <a id="a1" href="projets.html">Projets</a>
+            <a id="a1" href="galerie.html">Galerie</a>
+            <a id="a1" href="contact.html">Contacts</a>
+        </nav>
+        <hr>
+    </header>
+    <br>
+
+    <main>
+        <section class="motus">
+            <div id = texte>
+                <h1>Motus</h1>
+                <p>Le motus est un jeu qui consiste à trouver un mot d'une certaine taille en un certain nombre de tentatives. Les lettres correctement placées seront affichées aux prochaines tentatives tandis que les lettres présentes seront affichées sans révéler leur réelle position .</p>
+                <p>Voici ce à quoi peut ressembler un fragment de code du jeu motus, en python :</p>
+            </div>
+            <code id = code><pre>        def check_word(mot,proposition):<br>
+                list_indice= len(mot)*[-1]
+
+                    for k in range(len(mot)):
+                        if mot[k] == proposition[k]:
+                        list_indice[k]=1
+                    for k in range(len(mot)):
+                        if list_indice[k] == 1:
+                        continue
+                    for j in range(len(proposition)):
+                        if proposition[j] == mot[k] and list_indice[j] == -1:
+                        list_indice[j] = 0
+                    break
+            
+            
+
+        
+                return list_indice</code></pre>
+        <h1>Pour aller sur la page du projet 2 :</h1>
+        <a href="projet2.html">Projet 2 : Azul</a>
+        </section>
+    </main>
+</body>
+</html>

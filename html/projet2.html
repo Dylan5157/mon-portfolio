@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<link href="../css/projet1.css" rel=stylesheet>
+<link href="../css/style.css" rel="stylesheet">
+
+
+<html lang="fr">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device">
+    <title>Projets</title>
+</head>
+<body>
+    <header>
+        <h1 id="titre-principal">Mes projets</h1>
+
+        <nav>
+            <a id="a1" href=../index.html>Presentation</a>
+            <a id="a1" href="parcours.html">Parcours</a>
+            <a id="a1" href="projets.html">Projets</a>
+            <a id="a1" href="galerie.html">Galerie</a>
+            <a id="a1" href="contact.html">Contacts</a>
+        </nav>
+        <hr>
+    </header>
+    <br>
+
+    <main>
+        <section class="azul">
+            <div id = texte>
+                <h1>Azul</h1>
+                <p>Le azul est un jeu de société qui consiste a remplir un carreau en piochant intelligeamment des tuiles de couleur afin de gagner des points en remplissant le carreau, tout en évitant un maximum les pénalités</p>
+                <p>Voici ce à quoi peut ressembler un fragment de code du jeu azul, en python :</p>
+            </div>
+            <code id = code><pre>def start_tour():
+    sac = init_game()[0]
+    poubelle = init_game()[1]
+    cercle_fabrique = init_game()[2]
+    
+    for k in range(len(cercle_fabrique)):
+        for j in range(4):
+            if len(sac) <= 0:
+                sac = poubelle
+                poubelle = []
+            shuffle(sac)
+            cercle_fabrique[k][j] += sac.pop()
+    print(cercle_fabrique)
+    print(cercle_fabrique[j])
+
+            </code></pre>
+        <h1>Pour aller sur la page du projet 1 :</h1>
+        <a href="projet1.html">Projet 1 : Motus</a>
+        </section>
+    </main>
+</body>
+</html>
