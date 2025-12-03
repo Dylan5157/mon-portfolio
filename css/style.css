@@ -1,15 +1,22 @@
 body {
-    font-family: "Quicksand", sans-serif
+    font-family: "Quicksand", sans-serif;
+    background-color: black;
+    color:#fff;
 }
 
 header {
+    border: 2px solid #fff;
     font-family: "Quicksand", sans-serif;
     text-align: center;
     background-color: #333;
     padding: 30px;
     color: whitesmoke;
     border-radius: 10px;
-    
+    transition:border 2s;
+}
+
+header:hover {
+    border:2px solid aqua;
 }
 
 #titre-principal {
@@ -47,19 +54,32 @@ nav {
 
 
 footer {
+    color:#fff;
     display:flex;
     flex-direction: row;
     border: 2px solid black;
     border-radius: 18px;
-    margin-top:5%;
-    gap:60px;
+    margin-top:10%;
+    margin-bottom: auto;
+    gap:100px;
+    background-color: #333;
+    justify-content: center;
+    border: 2px solid #fff;
+    transition:border 2s;
    
 }
 
-.insta {
-    width:8vw;
-    height:8vh
+footer:hover{
+    border: 2px solid aqua;
 }
+
+.insta {
+    width:5vw;
+    height:5vh;
+    margin-top: 10px;
+}
+
+
 
 
 /* body {

@@ -30,18 +30,23 @@ h3 :hover {
 
 
 .p1 {
-    display:flex;
     
+    display:flex;
     flex-direction: column;
     padding:2%;
-    
     height:20vh;
     width: 40vw;
     border: 2px solid #fff;
     border-radius: 18px;
     align-items: center;
-    
+    transition: width ease 2s, height ease 2s, border ease 2s;
         
+}
+
+.p1:hover {
+    width: 42vw;
+    height:20vh;
+    border:2px solid red;
 }
 
 .p2 {
@@ -54,8 +59,14 @@ h3 :hover {
     border: 2px solid #fff;
     border-radius: 18px;
     align-items: center;
+    transition: width ease 2s, height ease 2s, border ease 2s;
     
-    
+}
+
+.p2:hover {
+    width: 42vw;
+    height:20vh;
+    border:2px solid orange;
 }
 
 

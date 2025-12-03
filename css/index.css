@@ -1,9 +1,7 @@
-
-
 body {
     margin: 5;
     min-height: 100vh;
-    background-color: white;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -24,7 +22,7 @@ h1{
     color: white;
     display:flex;
     flex-direction: column;
-    border:2px solid beige;
+    border: 2px solid #fff;
     justify-content: center;
     align-items: center;
     margin:5;
@@ -33,24 +31,21 @@ h1{
     width:97vw;
     height:auto;
     gap:10px;
-    transition:
-     border-color ease 2s;
-    transition:
-     width ease 1s;
+    transition: width 2s, border 2s;
+     
     
 }
 
 #article:hover {
     width:97.5vw;
-    border-color: black;
-    
+    border:2px solid aqua;
 }
 
 #git {
     
-    
+    margin-left:20px;
     width:5vw;
-    height:3vh;
+    height:5vh;
     border-radius: 10px;
     
 }

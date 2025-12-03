@@ -2,8 +2,9 @@
 
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid white;
     width:50vh;
+    color:white;
 }
 
 
@@ -11,3 +12,4 @@ table, th, td {
     width:15vh;
     height:10vh;
 }
+

@@ -1,0 +1,31 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;;
+    align-items: center;
+    border:2px solid #fff;
+    background-color:#333;
+    border-radius: 18px;
+    
+}
+
+button {
+    margin-top: 6%;
+    border-radius:18px;
+    background-color: #fff;
+    width: 20vw;
+    height:4vh;
+
+}
+
+input {
+    border-radius: 18px;
+    margin-top: 10px;
+    width:40vw;
+    height:4vh;
+    background-color: #fff;
+}
+
+input :hover {
+    background-color: black;
+}
